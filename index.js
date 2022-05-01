@@ -13,8 +13,18 @@ const questions = [
     },
     {
         type: "input",
+        name: "projectEmail",
+        message: "What is your email address?"
+    },
+    {
+        type: "input",
         name: "githubName",
         message: "What is your GitHub username?"
+    },
+    {
+        type: "input",
+        name: "projectDescription",
+        message: "Please briefly describe your project"
     },
     {
         type: "list",
@@ -26,13 +36,13 @@ const questions = [
 
 // TODO: Create a function to write README file
 const writeToFile = (fileName, data) => {
-    return fs.writeFileSync(path.join(process.cwd(), 'test/', fileName), data)
+    return fs.writeFileSync(path.join(process.cwd(), 'readme/', fileName), data)
 }
 
 // TODO: Create a function to initialize app
 const init = () => {
     inquirer.prompt(questions)
-        .then(res => writeToFile('test.md', generateMarkdown(res)))
+        .then(res => writeToFile('yourreadme.md', generateMarkdown(res)))
 }
 
 // Function call to initialize app
