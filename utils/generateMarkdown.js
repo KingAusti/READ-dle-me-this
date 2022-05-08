@@ -46,16 +46,16 @@ function generateMarkdown(data) {
   * [Questions](#questions)
   
   ## Installation
-  ${data.installInstructions}
+  ### ${data.installInstructions}
   
   ## Usage
-  ${data.usageInstructions}
+  ### ${data.usageInstructions}
 
   ## Contrubutions
-  ${data.projectContributions}
+  ### ${data.projectContributions}
 
   ## Testing
-  ${data.testingIntructions}
+  ### ${data.testingInstructions}
 
   ## Made by
   \n

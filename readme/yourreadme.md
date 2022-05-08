@@ -1,5 +1,5 @@
 
-  # Test
+  # Readme Generator
   
   ## License
   License used: MIT
@@ -16,16 +16,16 @@
   * [Questions](#questions)
   
   ## Installation
-  First you clone the repo, then you run the index
+  ### Clone repo, install dependencies, run index
   
   ## Usage
-  You want readme? I got your readme.
+  ### If you need a readme, I got you a readme
 
   ## Contrubutions
-  Please dont
+  ### Please dont.
 
   ## Testing
-  undefined
+  ### If it works, if it dont then call me
 
   ## Made by
   

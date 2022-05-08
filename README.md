@@ -25,3 +25,25 @@
 * THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 * WHEN I click on the links in the Table of Contents
 * THEN I am taken to the corresponding section of the README
+
+## Description
+
+A command line application that dynamically generates a professional readme file from user input
+
+Built with:
+ * JavaScript
+ * Node.js
+ * Inquirer
+ * Markdown
+
+ ## Installation
+
+ 1. Clone Repo
+ 2. Open integrated terminal and install all project dependencies
+ 3. Run index.js
+ 4. Answer questions
+ 5. Enjoy your professionally generated README!
+
+ ## Project Usage Demo
+
+ ![Gif of project usage](./public/ReadMe%20Generator%20Runstructions.gif)
