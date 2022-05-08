@@ -37,6 +37,26 @@ function generateMarkdown(data) {
   ${renderLicenseLink(data.projectLicense)}
   ${renderLicenseBadge(data.projectLicense)}
 
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributions](#contributions)
+  * [Testing](#testing)
+  * [Questions](#questions)
+  
+  ## Installation
+  ${data.installInstructions}
+  
+  ## Usage
+  ${data.usageInstructions}
+
+  ## Contrubutions
+  ${data.projectContributions}
+
+  ## Testing
+  ${data.testingIntructions}
+
   ## Made by
   \n
   \n
@@ -45,3 +65,4 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
+//END

@@ -10,6 +10,37 @@ const questions = [
         type: "input",
         name: "projectTitle",
         message: "What is the name of your project?"  
+    },    
+    {
+        type: 'input',
+        name: 'installInstructions',
+        message: 'Please provide a installation instructions.'
+    },    
+    {
+        type: "input",
+        name: "projectDescription",
+        message: "Please briefly describe your project"
+    },
+    {
+        type: 'input',
+        name: 'usageInstructions',
+        message: 'Please provide instructions for using this application'
+    },
+    {
+        type: 'input',
+        name: 'projectContributions',
+        message: 'What should the user know about making contributions to the repo?'
+    },
+    {
+        type: 'input',
+        name: 'testingInstructions',
+        message: 'Please provide instructions for testing.'
+    },    
+    {
+        type: "list",
+        name: "projectLicense",
+        message: "What licenses are you using?",
+        choices: ['Apache_2.0', 'BSD_3', 'GPL', 'MIT', 'Mozilla_Public_License_2.0', 'None']
     },
     {
         type: "input",
@@ -20,18 +51,7 @@ const questions = [
         type: "input",
         name: "githubName",
         message: "What is your GitHub username?"
-    },
-    {
-        type: "input",
-        name: "projectDescription",
-        message: "Please briefly describe your project"
-    },
-    {
-        type: "list",
-        name: "projectLicense",
-        message: "What licenses are you using?",
-        choices: ['Apache_2.0', 'BSD_3', 'GPL', 'MIT', 'Mozilla_Public_License_2.0', 'None']
-    }    
+    }
 ];
 
 // TODO: Create a function to write README file
@@ -47,3 +67,4 @@ const init = () => {
 
 // Function call to initialize app
 init();
+//END
